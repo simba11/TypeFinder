@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tree>
+  <title>Logo Typefaces</title>
+  <description>Logo traversal</description>
+  <branch id="1">
+	<content>So, which will it be?</content>
+	<fork target="1.1">Sans Serif</fork>
+	<fork target="1.2">Serif</fork>
+  </branch>
+  
+
+</tree>
+
