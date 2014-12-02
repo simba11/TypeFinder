@@ -6,7 +6,7 @@
 	if(!empty($_GET['oauth_verifier']) && !empty($_SESSION['oauth_token']) && !empty($_SESSION['oauth_token_secret'])){
     // info valid
 		// TwitterOAuth instance
-		$twitteroauth = new TwitterOAuth('xv9fHVetac4XRM7S5sblA', 'X8OyQCqtl4eQyBUkkvMlUG8BBWw4hqd98LYesSOrs', $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
+		$twitteroauth = new TwitterOAuth('###############', '##############################', $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
 		//request access token
 		$access_token = $twitteroauth->getAccessToken($_GET['oauth_verifier']);
 		// Save in session var
