@@ -3,8 +3,8 @@ require_once("oauth/facebook.php");
 require_once 'oauth/dbconnect.php';
 
 $facebook = new Facebook(array(
-    'appId'  => '1400991123499537',
-    'secret' => '91c522dbff444beb463d58a82888453d',
+    'appId'  => '################',
+    'secret' => '##############################',
     'cookie' => true
 ));
 
