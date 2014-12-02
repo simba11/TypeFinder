@@ -38,8 +38,8 @@ $result = $res->fetch_assoc();
 if(empty($result)){
     $facebook_name = explode(" ", $user->name);
     $query = mysqli_query($db, "INSERT INTO Users VALUES ('', 'facebook', '{$facebook_name[0]}', 
-                    '{$facebook_name[1]}', 'null' ,'facebook', '$uid', '1400991123499537', 
-                    '91c522dbff444beb463d58a82888453d')");
+                    '{$facebook_name[1]}', 'null' ,'facebook', '$uid', '###############', 
+                    '###############')");
     $query = mysqli_query($db, "SELECT * FROM Users WHERE id = " . mysqli_insert_id($db));
     $result = $query->fetch_assoc();
     $_SESSION['user_id'] = $result['uid'];
