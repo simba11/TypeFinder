@@ -3,7 +3,7 @@
 	session_start();
 
 	//Twitter OAUTH instance
-	$twitteroauth = new TwitterOAuth('xv9fHVetac4XRM7S5sblA', 'X8OyQCqtl4eQyBUkkvMlUG8BBWw4hqd98LYesSOrs');
+	$twitteroauth = new TwitterOAuth('###############', '##############################');
 	//request authentication tokens
 	$request_token = $twitteroauth->getRequestToken('http://localhost:8888/TypeFinder/twitter_oauth.php');
 	//save tokens into session localhost/a2/twitter_oauth.php
